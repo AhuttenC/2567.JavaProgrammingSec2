@@ -1,0 +1,17 @@
+public class firstprogram
+{
+   public staic void main(String[] args)
+   {
+     System.out.println("studentID: 2413110905"+
+                       "\nstudentName: Attkorn Chamroen"+
+                       "\nTopic: gitHub"+
+                       "\nDate: 11/20/2024");
+
+     JOptionPane.ShowMessageDialog(null,
+                                    "studentID: 2413110905"+
+                                    "\nstudentName: Attkorn Chamroen"+
+                                    "\nTopic: gitHub"+
+                                    "\nDate: 11/20/2024");
+   }
+}
+   
