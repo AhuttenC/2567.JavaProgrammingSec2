@@ -1,4 +1,4 @@
 StudentID:2413110905
 StudentName: Attakorn Chamroen
-Topic:gitHub
-Date:11/20/2024
+Topic:LabSgeet01
+Date:11/27/2024
