@@ -21,7 +21,7 @@ public class PensionContributionCalculator {
         System.out.print("Enter the age: ");
         age = input.nextInt();
 
-        contributableSalary = (salary >= SALARY_CEILING) ? SALARY_CEILING : salary;
+        contributableSalary = (salary <= SALARY_CEILING) ? salary : SALARY_CEILING;
         if (age <= 55) {
             employeeContribution = EMPLOYEE_RATE_55_AND_BELOW;
             employerContribution = EMPLOYER_RATE_55_AND_BELOW;
