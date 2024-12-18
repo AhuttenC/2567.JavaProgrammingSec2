@@ -23,7 +23,7 @@ public class Lab40 {
 			email = JOptionPane.showInputDialog("Invalid e-mail. Input your e-mail again:");
 		}
 		email = email.toLowerCase();
-		JOptionPane.showMessageDialog(null, 
+		JOptionPane.showMessageDialog(null,
 				cherkEmail(email)? "Yoor e-mail is "+email : "Your e-mail is not or gmail address.");
 	}
 	public static boolean cherkEmail(String email01) {

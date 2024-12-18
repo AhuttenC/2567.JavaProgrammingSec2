@@ -18,7 +18,7 @@ public class Lab403 {
 		String initalLetter="";
 		for (int i = 0; i<fName.length(); i++){
 			if(fName.charAt(i)==' ') {
-				initalLetter = (initalLetter+fName.charAt(i+1)).toUpperCase();
+				initalLetter = (initalLetter+fName.charAt(++i)).toUpperCase();
 				initalLetter = initalLetter+".";
 			}
 		}
