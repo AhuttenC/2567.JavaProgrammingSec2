@@ -1,4 +1,4 @@
-StudentID: 2413110905
-StudentName: Attakorn Chamroen
+StudentID: 2413170032
+StudentName: Nonnatee Phromdum
 Topic: Labsheet#6-ClassandObject
 Date: 15/01/2025
