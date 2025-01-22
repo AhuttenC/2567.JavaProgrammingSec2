@@ -1,4 +1,4 @@
 StudentID: 2413110905
 StudentName: Attakorn Chamroen
-Topic: Labsheet#6-ClassandObject
-Date: 15/01/2025
+Topic: LabSheet07_Encapsulation
+Date: 22/01/2025
