@@ -1,21 +1,16 @@
 public class Product {
+    private int unit;
 
-    private String name;
-    private double price;
-    private double vatRate;
-
-    public void setProductDetails(String inputName, double inputPrice, double inputVatRate){
-        name = inputName;
-        price = inputPrice;
-        vatRate = inputVatRate;
+    public void setUnit(int unit) {
+        this.unit = unit;
     }
-    public double calculateTotalPrice() {
-        return price + (price * (vatRate/100.0));
+    public int getUnit() {
+        return this.unit;
     }
-    public void displayProductDetails() {
-        System.out.println("Product Details:");
-        System.out.println("Product Name: "+name);
-        System.out.printf("Price (before VAT): %.1f", price);
-        System.out.printf("\nPrice (after VAT): %.1f", calculateTotalPrice());
+    public int getTotalprice() {
+        return this.unit * 100;
+    }
+    public String toSring() {
+        return "You buy "+ getUnit() + " unit ("+ getTotalprice()+").";
     }
 }
